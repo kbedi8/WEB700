@@ -1,0 +1,15 @@
+{
+  "name": "web700-assignment4",
+  "version": "1.0.0",
+  "description": "WEB700 Assignment 4 - theme and lego sets",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}

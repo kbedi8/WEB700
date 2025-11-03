@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>About - Theme Demo</title>
+    <link rel="stylesheet" href="/css/theme.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+  <body>
+    <nav class="navbar bg-light">
+      <div class="navbar-brand">Kunwar Bedi</div>
+      <div class="nav-links">
+        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link" href="/about">About</a>
+        <a class="nav-link" href="/lego/sets">Lego Sets</a>
+      </div>
+    </nav>
+
+    <main class="container">
+      <section>
+        <h1>About Me</h1>
+        <p>Hi, I'm Kunwar. I'm currently studying at Seneca Polytechnic and I'm working on web development and DevOps topics.
+           I enjoy automation, learning new tech, and practicing networking labs. Outside of school I enjoy reading,
+           coding small projects, and building Lego models.</p>
+
+        <h2>Theme Demo</h2>
+        <p>The sections below demonstrate various HTML elements styled by the site's custom theme (tables, lists,
+           images, audio and video). This helps show how the theme affects common elements.</p>
+
+        <!-- Tables Section -->
+        <section id="tables">
+          <h3>Tables</h3>
+
+          <!-- Table 1 -->
+          <table class="table">
+            <caption>Team Members & Roles</caption>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Role</th>
+                <th>Location</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Kunwar</td>
+                <td>Developer</td>
+                <td rowspan="2">Toronto, Canada</td>
+              </tr>
+              <tr>
+                <td>Anmol</td>
+                <td>Designer</td>
+              </tr>
+              <tr>
+                <td>Rahul</td>
+                <td>Tester</td>
+                <td>Remote</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="3">End of team list</td>
+              </tr>
+            </tfoot>
+          </table>
+
+          <!-- Table 2 -->
+          <table class="table">
+            <caption>Project Milestones</caption>
+            <thead>
+              <tr>
+                <th>Milestone</th>
+                <th>Due Date</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Design</td>
+                <td>2025-10-01</td>
+                <td>Complete</td>
+              </tr>
+              <tr>
+                <td>Development</td>
+                <td>2025-10-31</td>
+                <td>In Progress</td>
+              </tr>
+              <tr>
+                <td>Testing</td>
+                <td>2025-11-05</td>
+                <td>Planned</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="3">All dates are illustrative</td>
+              </tr>
+            </tfoot>
+          </table>
+
+          <p>The tables above use <code>caption</code>, <code>thead</code>, <code>tbody</code>, <code>tfoot</code>,
+             <code>rowspan</code> and <code>colspan</code> so you can see how they look with the theme.</p>
+        </section>
+
+        <!-- Lists Section -->
+        <section id="lists">
+          <h3>Lists</h3>
+
+          <ol>
+            <li>HTML fundamentals
+              <ul>
+                <li>Elements</li>
+                <li>Attributes</li>
+                <li>Semantics</li>
+              </ul>
+            </li>
+            <li>CSS styling</li>
+            <li>JavaScript basics</li>
+            <li>Node.js & Express</li>
+            <li>Version control (Git)</li>
+          </ol>
+
+          <p>The ordered list above includes a nested unordered list for one item.</p>
+        </section>
+
+        <!-- Images Section -->
+        <section id="images">
+          <h3>Images</h3>
+
+          <figure>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Lego_Color_Bricks.jpg/440px-Lego_Color_Bricks.jpg" alt="Colourful Lego bricks">
+            <figcaption>Colourful Lego bricks (source: Wikimedia Commons)</figcaption>
+          </figure>
+
+          <figure>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Brick_Lego_1.jpg/440px-Brick_Lego_1.jpg" alt="Single Lego brick">
+            <figcaption>Single Lego brick</figcaption>
+          </figure>
+
+          <figure>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Charles_Lawrence_Heath_-_Bricks.jpg/440px-Charles_Lawrence_Heath_-_Bricks.jpg" alt="Lego pieces in pile">
+            <figcaption>Lego pieces in a pile</figcaption>
+          </figure>
+
+          <p>Images include alt text and are pulled from Wikimedia Commons (noncommercial reuse).</p>
+        </section>
+
+        <!-- Audio Section -->
+        <section id="audio">
+          <h3>Audio</h3>
+
+          <audio controls>
+            <source src="https://pat-crawford-sdds.netlify.app/shared/winter-2025/web700/A4/sample-audio.mp3" type="audio/mpeg">
+            <source src="https://pat-crawford-sdds.netlify.app/shared/winter-2025/web700/A4/sample-audio.ogg" type="audio/ogg">
+            Your browser does not support the audio element.
+          </audio>
+
+          <p>The audio player above demonstrates an HTML5 audio element with MP3 and OGG sources.</p>
+        </section>
+
+        <!-- Video Section -->
+        <section id="video">
+          <h3>Video</h3>
+
+          <video controls width="640">
+            <source src="https://pat-crawford-sdds.netlify.app/shared/winter-2025/web700/A4/sample-video.mp4" type="video/mp4">
+            <source src="https://pat-crawford-sdds.netlify.app/shared/winter-2025/web700/A4/sample-video.webm" type="video/webm">
+            Your browser does not support the video tag.
+          </video>
+
+          <p>The video element above demonstrates an HTML5 video player with MP4 and WebM sources.</p>
+        </section>
+
+      </section>
+    </main>
+  </body>
+</html>
