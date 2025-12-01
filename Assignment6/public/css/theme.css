@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body, html {
+  height: 100%;
+  margin: 0;
+  overflow: auto;
+  background: linear-gradient(to right, #e0ffe4, #b3f7c2); /* soft green tones */
+  font-family: 'Poppins', sans-serif;
+  color: #1b1b1b; /* dark charcoal */
+}
+
+.centered-cell {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.bg-light {
+  background: linear-gradient(to right, #8e44ad, #c39bd3); /* purple gradient */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px #2d0033;
+}
+
+.nav-link {
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-link:hover {
+  color: #baff00;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  border: 1px solid #cccccc;
+  padding: 8px;
+}
+
+.table tr:nth-child(odd) td {
+  background: #e8f5e9; /* pale green */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #2e2e2e;
+  text-shadow: 1px 1px 1px #dcdcdc;
+}
+
+p {
+  color: #3a3a3a;
+}
+
+a {
+  color: #9b59b6; /* purple link */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #27ae60; /* green hover */
+}
+
+ul, ol {
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.image-section {
+  padding: 40px 20px;
+  background-color: #edf7ee; /* soft mint */
+}
+
+.image-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.image-flex img {
+  width: 400px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.video-showcase {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #eaf1ff; /* cool light blue */
+  color: #333;
+}
+
+.video-showcase h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.video-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.video-wrapper video {
+  width: 80%;
+  max-width: 700px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
